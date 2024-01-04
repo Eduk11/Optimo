@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XEICK+AcjKxhvw7wVA4o9WuJFCkHwQUpMKbRCgShiUijynlFC2nBVtwTA+UNAjqARR+xkT35eJ0YUvioEmFCAQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Once\\source\\repos\\FenixCaluyo_Solution\\Library.Log\\Library.Log.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Once\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Once\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

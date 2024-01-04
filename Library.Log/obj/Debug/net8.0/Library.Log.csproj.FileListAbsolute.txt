@@ -1,0 +1,12 @@
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Log\bin\Debug\net8.0\Library.Log.deps.json
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Log\bin\Debug\net8.0\Library.Log.dll
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Log\bin\Debug\net8.0\Library.Log.pdb
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Log\obj\Debug\net8.0\Library.Log.csproj.AssemblyReference.cache
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Log\obj\Debug\net8.0\Library.Log.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Log\obj\Debug\net8.0\Library.Log.AssemblyInfoInputs.cache
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Log\obj\Debug\net8.0\Library.Log.AssemblyInfo.cs
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Log\obj\Debug\net8.0\Library.Log.csproj.CoreCompileInputs.cache
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Log\obj\Debug\net8.0\Library.Log.dll
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Log\obj\Debug\net8.0\refint\Library.Log.dll
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Log\obj\Debug\net8.0\Library.Log.pdb
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Log\obj\Debug\net8.0\ref\Library.Log.dll

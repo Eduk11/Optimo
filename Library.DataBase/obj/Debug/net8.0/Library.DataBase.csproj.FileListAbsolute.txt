@@ -1,0 +1,17 @@
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\bin\Debug\net8.0\Library.DataBase.deps.json
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\bin\Debug\net8.0\Library.DataBase.dll
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\bin\Debug\net8.0\Library.DataBase.pdb
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\bin\Debug\net8.0\Library.Log.dll
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\bin\Debug\net8.0\Library.Model.dll
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\bin\Debug\net8.0\Library.Log.pdb
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\bin\Debug\net8.0\Library.Model.pdb
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\Library.DataBase.csproj.AssemblyReference.cache
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\Library.DataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\Library.DataBase.AssemblyInfoInputs.cache
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\Library.DataBase.AssemblyInfo.cs
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\Library.DataBase.csproj.CoreCompileInputs.cache
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\Library.DataBase.csproj.CopyComplete
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\Library.DataBase.dll
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\refint\Library.DataBase.dll
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\Library.DataBase.pdb
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\ref\Library.DataBase.dll
