@@ -1,6 +1,6 @@
 ﻿@model Library.Model.Responses.ListVenta
 @{
-    Layout = null;
+    ViewData["Title"] = "Home report";
 }
 
 <!DOCTYPE html>
@@ -77,31 +77,36 @@
 </head>
 <body >
 
-    <div class="contenedor">
-
-        <table class="tbproductos" style="width:100%">
-            <thead>
-                <tr>
-                    <th class="tbth" style="width:130px">Id</th>
-                    <th class="tbth" style="width:130px">Nombre</th>
-                    <th class="tbth" style="width:130px">Precio</th>
-                    <th class="tbth" style="width:130px">Stock</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model.ListReport)
-                {
-                <tr>
-                    <td class="td-item"><p class="item">@item.IdVenta</p></td>
-                    <td class="td-item"><p class="item">@item.nombre</p></td>
-                    <td class="td-item"><p class="item">@item.precio</p></td>
-                    <td style="background-color:#EDF6F9"><p class="item">@item.stock</p></td>
-                </tr>
-                }
-            </tbody>
-        </table>
-       
+    <div class="table-container">
+        @if (Model != null && Model.ListReport != null && Model.ListReport.Any())
+        {
+            <table class="tbproductos" style="width:100%" id="report_data">
+                <thead>
+                    <tr>
+                        <th class="tbth" style="width:130px">Id</th>
+                        <th class="tbth" style="width:130px">Nombre</th>
+                        <th class="tbth" style="width:130px">Precio</th>
+                        <th class="tbth" style="width:130px">Stock</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.ListReport)
+                    {
+                        <tr>
+                            <td class="td-item"><p class="item">@item.IdVenta</p></td>
+                            <td class="td-item"><p class="item">@item.nombre</p></td>
+                            <td class="td-item"><p class="item">@item.precio</p></td>
+                            <td style="background-color:#EDF6F9"><p class="item">@item.stock</p></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>No hay datos disponibles.</p>
+        }
     </div>
-
+    
 </body>
 </html>

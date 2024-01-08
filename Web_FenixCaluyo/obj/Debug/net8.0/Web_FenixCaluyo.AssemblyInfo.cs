@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Web_FenixCaluyo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b696267fe0aa2d143df55d5f7c4bbda65567b471")]
 [assembly: System.Reflection.AssemblyProductAttribute("Web_FenixCaluyo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Web_FenixCaluyo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

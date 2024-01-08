@@ -12,6 +12,7 @@ C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Business\obj\Debug\net8.
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Business\obj\Debug\net8.0\Library.Business.AssemblyInfoInputs.cache
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Business\obj\Debug\net8.0\Library.Business.AssemblyInfo.cs
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Business\obj\Debug\net8.0\Library.Business.csproj.CoreCompileInputs.cache
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Business\obj\Debug\net8.0\Library.Business.sourcelink.json
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Business\obj\Debug\net8.0\Library.Business.csproj.CopyComplete
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Business\obj\Debug\net8.0\Library.Business.dll
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Business\obj\Debug\net8.0\refint\Library.Business.dll

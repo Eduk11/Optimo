@@ -1,22 +1,208 @@
 html {
-  font-size: 14px;
+    font-size: 12px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    html {
+        font-size: 14px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+header {
+    background-color: #000066;
+    color: white;
+}
+
+/* Estilo del contenedor principal */
+.container_base {
+    width: 80%;
+    margin: 0px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    /*box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);*/
+    overflow: hidden;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+}
+
+/* Contenedor principal */
+.main-container {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+}
+
+/* Contenedores hijos dentro del contenedor principal */
+.main-section,
+.second-section {
+    width: 50%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    /* border: 2px solid #ddd; */
+    /* Centrar los elementos horizontal y verticalmente */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para los elementos en main-section */
+.input-container {
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+/* Estilos para los botones */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Nuevo contenedor para la tabla */
+.table-container {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+    font-size: 12px;
+}
+
+thead th {
+    border: 1px solid #fff;
+    font-size: 12px;
+}
+
+th, td {
+    border: 1px solid #fff;
+    padding: 4px;
+    text-align: left;
+}
+
+th {
+    background-color: #F25835;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ecf0f1;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn_report {
+    background-color: #FF5E00;
+    font-size: 14px;
+    color: #fff;
+    width: 90px;
+}
+
+    .btn_report:hover {
+        background-color: #FF6405;
+        color: #fff;
+    }
+
+/* Media query para dispositivos pequeños */
+@media (max-width: 868px) {
+    .main-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .main-section,
+    .second-section {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin-top: 10px;
+    }
+
+    header h1 {
+        margin: 10px 0;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+}
+
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    z-index: 1;
+}
+
+.message-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+    z-index: 9999;
+}
+
+.consulta-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: none;
+    color: black;
+    z-index: 9999;
+}
+
+.resaltado {
+    font-weight: bold;
+    color: #2196F3;
 }

@@ -12,6 +12,11 @@ namespace Library.Model.Responses
         public List<Venta>? ListReport { get; set; }
     }
 
+    public class Prueba()
+    {
+        public int numero { get; set; }
+    }
+
     public class Venta
     {
         [JsonProperty("IdVenta")]
@@ -21,10 +26,10 @@ namespace Library.Model.Responses
         public string? nombre { get; set; }
 
         [JsonProperty("stock")]
-        public string? stock { get; set; }
+        public int? stock { get; set; }
         
         [JsonProperty("precio")]
-        public string? precio { get; set; }
+        public decimal? precio { get; set; }
 
     }
 }

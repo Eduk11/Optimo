@@ -10,6 +10,7 @@ C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\Library.DataBase.AssemblyInfoInputs.cache
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\Library.DataBase.AssemblyInfo.cs
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\Library.DataBase.csproj.CoreCompileInputs.cache
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\Library.DataBase.sourcelink.json
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\Library.DataBase.csproj.CopyComplete
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\Library.DataBase.dll
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.DataBase\obj\Debug\net8.0\refint\Library.DataBase.dll

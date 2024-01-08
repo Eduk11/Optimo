@@ -6,6 +6,7 @@ C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Model\obj\Debug\net8.0\L
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Model\obj\Debug\net8.0\Library.Model.AssemblyInfoInputs.cache
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Model\obj\Debug\net8.0\Library.Model.AssemblyInfo.cs
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Model\obj\Debug\net8.0\Library.Model.csproj.CoreCompileInputs.cache
+C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Model\obj\Debug\net8.0\Library.Model.sourcelink.json
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Model\obj\Debug\net8.0\Library.Model.dll
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Model\obj\Debug\net8.0\refint\Library.Model.dll
 C:\Users\Once\source\repos\FenixCaluyo_Solution\Library.Model\obj\Debug\net8.0\Library.Model.pdb

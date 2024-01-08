@@ -23,6 +23,11 @@ namespace Web_FenixCaluyo.Controllers
             return View();
         }
 
+        public async Task<ActionResult> ImprimirVenta()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

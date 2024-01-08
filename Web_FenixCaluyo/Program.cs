@@ -5,6 +5,8 @@ using Library.Log;
 using Serilog;
 using Library.DataBase.Data.IData;
 using Library.DataBase.Data;
+using System.Data;
+using Library.Model.Responses;
 
 namespace Core.WebPase.Reporte;
 public static class Program
@@ -20,6 +22,8 @@ public static class Program
             builder.Services.AddControllersWithViews();
             builder.Services.AddScoped<IReport, Report>();
             builder.Services.AddScoped<IReport_Data, Report_Data>();
+            builder.Services.AddScoped <ListVenta>();
+            builder.Services.AddScoped <Venta>();
 
             var _logger = new LoggerConfiguration().ReadFrom.Configuration(builder.Configuration).Enrich.FromLogContext()
                                            .CreateLogger();
