@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Web_FenixCaluyo.styles.css" asp-append-version="true" />
+
+    <script type="text/javascript">
+        function GetRoute(controller, view) {
+            return "@Url.Content("~/")" + controller + "/" + view;
+        }
+        function GetRouteHome() {
+            return "@Url.Content("~/")";
+        }
+    </script>
+
 </head>
 <body>
     <header>

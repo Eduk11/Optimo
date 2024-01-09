@@ -4,11 +4,15 @@
 
 //    console.log("Número total de filas: " + filas.length);
 
-//    // Ocultar las filas después de la décima (excluyendo la fila de encabezado)
 //    for (var i = 11; i < filas.length; i++) {
 //        filas[i].style.display = "none";
 //    }
 //});
+
+
+
+
+
 
 
 
