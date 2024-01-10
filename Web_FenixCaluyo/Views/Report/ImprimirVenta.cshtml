@@ -47,25 +47,25 @@
         table.tbproductos thead tr th {
            background-color: #03A99F;
            padding:10px;
-           font-size:12px;
+           font-size:15px;
            color:white;
         }
         table.tbproductos tbody tr td{
            padding:10px;
         }
         .item{
-           font-size:12px;
+           font-size:15px;
            font-weight:100;
            color:#757575;
         }
         .item-2{
-        font-size:12px;
+        font-size:15px;
            font-weight:bold;
            color:#757575;
         }
 
         .item-3{
-           font-size:12px;
+           font-size:15px;
            font-weight:bold;
            background-color:#03A99F;
            color:white;
@@ -166,11 +166,12 @@
             }
 
             function updateButtons() {
-                document.getElementById('pageNumber').textContent = currentPage;
+                const totalPages = Math.ceil(rows.length / rowsPerPage);
+                document.getElementById('pageNumber').textContent = `Página ${currentPage} de ${totalPages}`;
                 document.getElementById('prevButton').disabled = currentPage === 1;
                 document.getElementById('firstPageButton').disabled = currentPage === 1;
-                document.getElementById('nextButton').disabled = currentPage === Math.ceil(rows.length / rowsPerPage);
-                document.getElementById('lastPageButton').disabled = currentPage === Math.ceil(rows.length / rowsPerPage);
+                document.getElementById('nextButton').disabled = currentPage === totalPages;
+                document.getElementById('lastPageButton').disabled = currentPage === totalPages;
             }
 
             function goToPage(page) {
@@ -188,11 +189,8 @@
                     const index = cellText.indexOf(searchTerm);
 
                     if (index !== -1) {
-                        // Aplica el resaltado solo a la palabra buscada en la celda actual
-                        const newText = cellText.substring(0, index) +
-                            `<span style="background-color: yellow; font-weight: bold;">${cellText.substring(index, index + searchTerm.length)}</span>` +
-                            cellText.substring(index + searchTerm.length);
-                        cell.innerHTML = newText;
+                        // Agrega una clase para resaltar la palabra buscada en la celda actual
+                        cell.classList.add('highlight');
                     }
                 });
             }
@@ -201,7 +199,8 @@
                 rows.forEach(row => {
                     const cells = row.querySelectorAll('td');
                     cells.forEach(cell => {
-                        cell.innerHTML = cell.textContent;
+                        // Elimina la clase de resaltado
+                        cell.classList.remove('highlight');
                     });
                 });
             }
@@ -255,7 +254,6 @@
             showPage(currentPage);
             updateButtons();
         });
-
 
     </script>
 </body>
